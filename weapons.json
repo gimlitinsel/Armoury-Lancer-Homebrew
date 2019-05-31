@@ -1,23 +1,55 @@
 [
   {
-    "id": "hayoicombatsheathe",
-    "name": "Haoyi Combat Sheathe",
-    "description": "This enhancement encases a mech’s manipulators and brachial structures in a powerful reactive alloy weave, allowing it to use its fists as blunt weapons, even unarmed.",
-    "source": "IPS-N",
+    "id": "MtOlymInc-Ath Tactician's Spear",
+    "name": "Tactician's Spear",
+    "description": "",
+    "source": "Mt Olympus Inc",
     "data_type": "weapon",
-    "aptitude": {
-      "melee": 1
-    },
+    "aptitude": {},
     "type": "Melee",
-    "tags": [],
-    "license": "ZHENG",
+    "tags": [
+      {
+        "id": "accurate"
+      }
+    ],
+    "license": "ATHENA",
+    "license_level": 2,
+    "effect": "When you deal damage with a weapon in the slot this weapon occupies, until your next turn, you increase your threat by 1 and you can make an additional overwatch attack with that weapon in the round. This effect persists from when this weapon is mounted on a mech weapon mount till this weapon is removed from the weapon mount",
+    "mount": "Main",
+    "damage": [
+      {
+        "type": "Kinetic",
+        "val": "1d6+1"
+      }
+    ],
+    "range": [
+      {
+        "type": "threat",
+        "val": 1
+      }
+    ]
+  },
+  {
+    "id": "MtOlympInc-Pos Hyper-Dense Trident",
+    "name": "Hyper-Dense Trident",
+    "description": "",
+    "source": "Mt Olympus Inc",
+    "data_type": "weapon",
+    "aptitude": {},
+    "type": "Melee",
+    "tags": [
+      {
+        "id": "ap"
+      }
+    ],
+    "license": "POSEIDON",
     "license_level": 1,
-    "effect": "When you attack with this weapon, choose one or two targets to attack, rolling separately for each (choose which one is the primary target for bonus damage or other effects).<br>You may use this weapon even while jammed.",
+    "effect": "When you attack with this weapon in Low Gravity or Zero Gravity this weapon’s damage changes to 1d6 Kinetic and gains the Accurate tag.",
     "mount": "Main",
     "damage": [
       {
         "type": "kinetic",
-        "val": "1d3 + 2"
+        "val": "1d3"
       }
     ],
     "range": [
@@ -28,120 +60,66 @@
     ]
   },
   {
-    "id": "dd288",
-    "name": "D/D 288",
-    "description": "The Haoyi devastator/demolition weapon is legendary for its ability to breach and inflict total destruction on hardened targets. Originally rigged as a last resort by it’s operator, this fist-mounted weapon is essentially a redirection of the mechs’ core reactor. It must be primed before firing, requiring a dangerous power draw from the mechs’ systems and creating an enormous amount of emissions. The weapons’ first firing killed Haoyi Mei and five of her opponents, and its tendency to cause enormous collateral damage and its spectacular discharge when fired earned it the moniker ‘Shā mǎ zhǎng’ or Horse Killing Palm.",
-    "source": "IPS-N",
-    "data_type": "weapon",
-    "aptitude": {
-      "melee": 1
-    },
-    "type": "Melee",
-    "tags": [],
-    "license": "ZHENG",
-    "license_level": 3,
-    "effect": "As a quick action, you may charge this weapon. While charging it you are slowed, take 2 heat at the start of your turn, and benefit from soft cover. At the start of any turn in which your weapon is charging, the damage from this weapon becomes 3d6 explosive damage, targets struck by it are knocked back 5 spaces directly away from you, and on critical hit your target is shredded until the end of its next turn.<br> This weapon deals 30 AP explosive damage to objects or terrain on hit. If an object or piece of terrain struck by this weapon is destroyed, it explodes, dealing 1d6 kinetic damage to all adjacent characters other than you and knocking them back 1 space.<br> After hitting with this weapon, you lose this charging state and the damage reverts to normal. You can also stop charging as a free action, and you also lose the charge if you are stunned or shut down.",
-    "mount": "Heavy",
-    "damage": [
-      {
-        "type": "kinetic",
-        "val": "1d6"
-      }
-    ],
-    "range": [
-      {
-        "type": "threat",
-        "val": 1
-      }
-    ]
-  },
-  {
-    "id": "warprifle",
-    "name": "Warp Rifle",
+    "id": "MtOlympInc-Pos Class II Hippokampos Atmospheric Disruptor",
+    "name": "Class II Hippokampos Atmospheric Disruptor",
     "description": "",
-    "source": "HA",
+    "source": "Mt Olympus Inc",
     "data_type": "weapon",
-    "aptitude": {
-      "melee": 1
-    },
+    "aptitude": {},
     "type": "Rifle",
     "tags": [
       {
         "id": "unique"
+      },
+      {
+        "id": "loading"
+      },
+      {
+        "id": "ordnance"
       }
     ],
-    "license": "SUNZI",
-    "license_level": 2,
-    "effect": "On hit, the target must pass an engineering save or be teleported back 3 spaces directly away from you and slowed until the end of its next turn. If that teleport would put them inside another character’s space or a piece of terrain, the teleport fails. They must save as normal, but instead take 5 AP kinetic damage on a failed save and are not slowed.",
+    "license": "POSEIDON",
+    "license_level": 3,
+    "effect": "After this Weapon does damage for the next two rounds at the start of your turn it deals it’s damage again in its area to all hostile targets.\r\nAny mech dealt damage by this weapon must make a Hull check or be Slowed for 2 rounds afterwards.\r\n",
     "mount": "Main",
     "damage": [
       {
-        "type": "energy",
-        "val": "1d3"
+        "type": "kinetic",
+        "val": "1d6"
       }
     ],
     "range": [
       {
         "type": "range",
         "val": 10
+      },
+      {
+        "type": "blast",
+        "val": 5
       }
     ]
   },
   {
-    "id": "kraulrifle",
-    "name": "Kraul Rifle",
-    "source": "SSC",
-    "description": "Hunting the Vast, the titans of Sparr, is an incredibly profitable venture - their skins, meat, and bone can turn into months of prosperity for an ambitious raiding party. These popular long rifles, refined to SSC standards, rugged and durable, aid in dragging down the great beasts.",
-    "data_type": "weapon",
-    "aptitude": {
-      "melee": 1
-    },
-    "type": "CQB",
-    "tags": [
-      {
-        "id": "inaccurate"
-      }
-    ],
-    "license": "ATLAS",
-    "license_level": 1,
-    "effect": "On hit, your target is impaled by the harpoon-like projectile this weapon fires. Any time before the start of your next turn, you can reel in the harpoon and make a boost action as a reaction, as long as your boost moves towards that target by the most direct route possible. Your target must then pass a hull save or be knocked prone, and this effect ends. The line snaps if your target teleports.",
-    "mount": "Main",
-    "damage": [
-      {
-        "type": "kinetic",
-        "val": "1d6"
-      }
-    ],
-    "range": [
-      {
-        "type": "range",
-        "val": 8
-      }
-    ]
-  },
-  {
-    "id": "terashimablade",
-    "name": "Terashima Blade",
-    "source": "SSC",
-    "description": "Quenched in the fire of a dying star and perfectly balanced, each of these blades bears a unique name. Quiet. Ishtar. Trolljäger. When combined with a mech’s sensors, they are rumored to be fast and durable enough to deflect weapons fire, though such a capability has not been tested.",
-    "data_type": "weapon",
-    "aptitude": {
-      "melee": 1
-    },
+    "id": "MtOlympInc-Heph Vulcan Class Hammer",
+    "name": "Vulcan Class Hammer",
     "type": "Melee",
     "tags": [
       {
         "id": "unique"
       }
     ],
-    "license": "ATLAS",
-    "license_level": 3,
-    "effect": "While wielding this weapon, if attacked by any ranged weapon attack, roll a d6. On a 6, gain resistance to all the damage of the attack if it hits, and the attacker repeats the attack against itself, dealing half damage on a hit (and any other effects).",
-    "mount": "Main",
+    "source": "mt Olympus Inc",
+    "license": "HEPHASTUS",
+    "license_level": 1,
+    "effect": "This weapon can be used to attack a friendly target. If targeting a friendly target it gains +2 Accuracy for the attack and deals no damage; instead you may spend a Repair to heal the target half of their total HP.",
+    "description": "",
+    "data_type": "weapon",
+    "aptitude": {},
+    "mount": "aux",
     "damage": [
       {
         "type": "kinetic",
-        "val": "1d6+2"
+        "val": 2
       }
     ],
     "range": [
@@ -152,95 +130,78 @@
     ]
   },
   {
-    "id": "fusionrifle",
-    "name": "Fusion Rifle",
-    "type": "Rifle",
-    "tags": [],
-    "source": "HORUS",
-    "license": "KOBOLD",
-    "license_level": 1,
-    "effect": "This weapon deals damage equal to its range from the target instead of rolling for damage, up to a maximum of 6 damage.",
-    "description": "Bootstrapped from ore mining laser weaponry, this weapon’s deadly glare becomes more effective the longer distance the beam has to focus.",
-    "data_type": "weapon",
-    "aptitude": {
-      "melee": 1
-    },
-    "mount": "Main",
-    "damage": [
-      {
-        "type": "energy",
-        "val": "1-6"
-      }
-    ],
-    "range": [
-      {
-        "type": "range",
-        "val": 6
-      }
-    ]
-  },
-  {
-    "id": "slagcannon",
-    "name": "Slag Cannon",
+    "id": "MtOlympInc-Heph Zeus Pattern Lightning Cannon",
+    "name": "Zeus Pattern Lightning Cannon",
     "type": "Cannon",
     "tags": [
       {
+        "id": "protocol"
+      },
+      {
         "id": "heatself",
-        "val": 1
+        "val": 2
       }
     ],
-    "source": "HORUS",
-    "license": "KOBOLD",
-    "license_level": 2,
-    "effect": "Hit or miss, after this weapon attacks a target, if your target is on the ground, place a size 1 piece of terrain in a free adjacent space next to them (10 HP, evasion 5).",
-    "description": "Dripping with molten fury, this carefully rigged weapon barely functions but bought many Barony overseers a painful death covered in boiling ore slag.",
+    "source": "Mt Olympus Inc",
+    "license": "HEPHASTUS",
+    "license_level": 3,
+    "effect": "As a free action at the start of your turn you can reconfigure this weapon to target a friendly target. In this mode it does no energy damage (but still heat damage), but instead supercharges all mechs in the blast area until the end of your next turn . When supercharged a mech deals +1d6 damage, scores critical hits on a total of 18 on an attack roll (rather than 20), gains +5 to their sensor range, and gains a +2 to tech attacks against targets within half of their (new) sensor range.",
+    "description": "",
     "data_type": "weapon",
-    "aptitude": {
-      "melee": 1
-    },
-    "mount": "Main",
+    "aptitude": {},
+    "mount": "heavy",
     "damage": [
       {
         "type": "energy",
-        "val": "1d6"
+        "val": "1d6+5"
+      },
+      {
+        "type": "burn",
+        "val": 2
       }
     ],
     "range": [
       {
-        "type": "range",
-        "val": 8
+        "type": "Range",
+        "val": 15
+      },
+      {
+        "type": "Blast",
+        "val": 1
       }
     ]
   },
   {
-    "id": "Unraveler",
-    "name": "Unraveler",
-    "type": "Launcher",
-    "tags": [
-      {
-        "id": "reliable",
-        "val": 2
-      }
-    ],
-    "source": "HORUS",
-    "license": "LICH",
-    "license_level": 1,
-    "effect": "If the damage from this weapon does not destroy its target or cause it to take 1 structure\r\ndamage, it instead deals only its reliable damage (2).",
-    "description": "“Dark. Wet. Drink deep, and descend. The water is warm and well. It is very busy here, though you\ncannot see it. The swimmers are curious. Open your mouth.”\n— Speaker 2 (M.A2.SP2) [Audio, length: 120:36][34% corruption][Dated 18593U, 01:50] [UIBTERMAGANT-\nTANGENT ROYAL]",
-    "data_type": "weapon",
-    "aptitude": {},
+    "id": "MtOlympInc-Arte Eclipse Class Lazer",
+    "name": "Eclipse Class Lazer",
     "mount": "Main",
+    "type": "Rifle",
     "damage": [
       {
-        "type": "energy",
-        "val": "2d6+1"
+        "override": true,
+        "val": "none"
       }
     ],
     "range": [
       {
-        "type": "range",
-        "val": "10"
+        "type": "Range",
+        "val": 15
       }
-    ]
+    ],
+    "tags": [
+      {
+        "id": "accurate"
+      },
+      {
+       "id": "unique" 
+      }
+    ],
+    "source": "Mt Olympus Inc",
+    "license": "ARTEMIS",
+    "license_level": 1,
+    "effect": "This weapon does no damage, but instead it completely blinds the target for a round. If the attack crits it blinds the target for two rounds. This weapon cannot be used to target swarms. If used to target squads it deals 1 energy damage instead.",
+    "description": "",
+    "data_type": "weapon",
+    "aptitude": {}
   }
 ]

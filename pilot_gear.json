@@ -1,0 +1,187 @@
+[
+  {
+    "id": "Achilles-AMR",
+    "type": "weapon",
+    "name": "Achilles AMR",
+    "tags": [
+      {
+        "id": "Loading"
+      },
+      {
+        "id": "ap"
+      }
+    ],
+    "range": [
+      {
+        "type": "range",
+        "val": 5
+      }
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "val": 3
+      }
+    ],
+    "description": "“And so, John Moses Browning arose from his eternal slumber, and created the ACHILLES AMR. He found that it had sufficient stoppin’ powah, and saw that it was good. He gifted it upon the Forums of M.O.I. and spake ‘Go forth, and perform thy will.’”\r\n\t- Anonymous Poster no. 621328591\r\n“Who the everloving fuck is John Moses Browning?”\r\nAnonymous Poster no. 621328593\r\n\r\nThe Achilles AMR surfaced on M.O.I forums from a user with the handle ‘WWJMBD’. The post containing the spec designs for the Achilles AMR is one of two posts ever credited to this account, the other long since deleted.\r\n\r\n\r\nThe design creates a formidable firearm, capable of projecting a .656in full metal jacket ‘tank stopper’ round up to velocities of 6446 ft/sec. Such a powerful shot is more than capable of puncturing straight through mech hull armour, although the recoil has been known to dislocate shoulders. Users have speculated that given the ammunition type and speed, the sheer reduction of backward force to produce nothing more serious than dislocation is a minor miracle of engineering.\r\n\r\nThe association of this weapon and the myth of the legendary pre-historic gunsmith known as “John Moses Browning” is largely tongue-in-cheek speculation from various archao-hacking groups and historical enthusiasts. Such speculation has inevitably spilled over into cultural meme territory, leading to various reports of “The Ghost Of John Browning” haunting the omninet. As would be expected, the historical accuracy of Browning’s representation in these reports varies wildly.\r\n\r\n“http://lmgtfy.com/?iie=1&q=John+Moses+Browning”\r\n\t- Anonymous Poster no. 621328601"
+  },
+  {
+    "id": "Kharon-.45",
+    "type": "weapon",
+    "name": "Kharon .45",
+    "tags": [
+      {
+        "id": "sidearm"
+      }
+    ],
+    "range": [
+      {
+        "type": "range",
+        "val": 5
+      }
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "val": 1
+      }
+    ],
+    "effect": "Upon hit this gives a +1 accuracy on attacks made against the target this round. The effect cannot stack with itself",
+    "description": "The Kharon .45 takes a more traditional approach to weapons design, which is surprising, as it’s the one of the closest products to 'paracausal tech' that Mount Olympus produces. A magazine fed pistol, the Kharon .45 imbues a form of electronic shielding on loaded ammunition which gradually sheds as the round progresses on it’s trajectory. The shielding displaces air molecules just before the force of the actual bullet would, and subsists for .5 seconds afterward.\r\n      This ‘shedding effect’ creates a small corridor of momentary vacuum. The shielding, upon collapse 'knits' the air back together behind it, converting any sound energy into heat. The result is an entirely silent supersonic shot, that leaves a trail of superheated air behind it.\r\n      After firing, specialized firmware on the Kharon .45 sights use the heat trail to create a personalized form of ‘lock-on’ for the user. This ‘lock-on’ can be shared to mechs and other pilots of your choosing within 10 spaces as a quick action, but by default can only be consumed by someone using a Kharon .45 ."
+  },
+  {
+    "id": "AJAX-25mm-Grenade-Launcher",
+    "type": "weapon",
+    "name": "AJAX 25mm Grenade Launcher",
+    "tags": [
+      {
+        "id": "arcing"
+      }
+    ],
+    "range": [
+      {
+        "type": "range",
+        "val": 10
+      }
+    ],
+    "damage": [
+      {
+        "override": true,
+        "val": "variable"
+      }
+    ],
+    "effect": "You can deploy any grenade you have through this weapon, using the weapon’s range. This weapon also comes with 4 Grenades that deal 1 Explosive damage in a blast 1 area, that can only be fired with this weapon.",
+    "description": "The AJAX Grenade Launcher doesn’t have a particularly ‘exciting’ design, but makes up for this perceived flaw in simple versatility. Featuring a very generous 12 chambers in which to slot ammunition, the average pilot will run out of either ammunition or target before needing to reload. Precision auto-sizing on each chamber and barrel allows the AJAX to fire a wide variety of grenades from most popular manufacturers, propelling each grenade up to 100 metres with a calculated pneumatic burst."
+  },
+  {
+    "id": "MARS-Electro-Flail",
+    "type": "weapon",
+    "name": "MARS Electro-Flail",
+    "tags": [
+      {
+        "id": "seeking"
+      },
+      {
+        "id": "ap"
+      }
+    ],
+    "range": [
+      {
+        "type": "threat",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "energy",
+        "val": 2
+      }
+    ],
+    "description": "The MARS Electro-Flail utilizes a semiconductive alloy mesh that has high malleability and ductility as long as the alloy carries current in excess of 88.8 mA. The power supply in the base of the Electro-Flail keeps the mesh at just above this current level, distributing the charge amongst several contact nodes along the length of the flail. Once these nodes meet a suitable point of discharge, the mesh quickly coils and tightens in favour of the discharge surface, creating a “wrapping effect”.\r\n      On discharge, an instantaneous ‘return flash’ allows the flail to disentangle for another strike. The base also houses heavy insulation and a minor repelling static field to prevent the flail accidentally striking the user during use."
+  },
+  {
+    "id": "Heracles-tactical-shotgun",
+    "type": "weapon",
+    "name": "Heracles Tactical Shotgun",
+    "tags": [
+      {
+        "id": "ap"
+      }
+    ],
+    "range": [
+      {
+        "type": "range",
+        "val": 7
+      },
+      {
+        "type": "threat",
+        "val": 1
+      }
+    ],
+    "damage": [
+      {
+        "type": "kinetic",
+        "val": 3
+      }
+    ],
+    "description": "The Heracles Tactical Shotgun is unique amongst personal defence products of the same nature in it’s requirement for a very specific payload; 1.12 inch ferric solid slug shells. The firing mechanism is the cutting edge in micro-magnetic field technology - upon trigger release, magnetic forces propel the slug along the barrel at 2580 ft/sec. The resulting impact is usually halfway through the 3rd obstruction in the Heracles’ line of fire. As one of the more destructive personal defense products on the Mount Olympus line, licenses for this weapon are relatively scarce."
+  },
+  {
+    "id": "Damascus-Bodyglove",
+    "type": "armor",
+    "name": "Damascus Bodyglove",
+    "hp_bonus": 1,
+    "speed": 4,
+    "speed_bonus": 0,
+    "armor": 0,
+    "edef": 10,
+    "evasion": 10,
+    "evasion_bonus": 0,
+    "description": "The “Damascus” Mark II. BodyGlove is the only “hardsuit” Mount Olympus sells. It’s not so much of a proper hardsuit as it is customized clothing. The Damascus sports a titanium mesh/carbon nanotube blend, with an external grain reminiscent of Damascus Steel patterning.\r\n    The material flows and feels like a fabric, but utilizes a decentralized hive system architecture to monitor external environmental conditions, through thousands of microscopic nodes entangled in the mesh itself. Using the collected data, micro currents can adjust the structure of the mesh, allowing the suit to be as breathable or unbreathable as required, up to full environmental sealing.\r\n    The Damascus also boasts a series of mounts and hardpoints with smart-deformation plasticity; these mounts automatically configure themselves to be compatible with weapons and upgrades from most big-name brands, and can feed weight information back to the body glove. This allows the body glove to adjust the rigidity of its constituent fabric on the fly, generating full body weight support for various mounts as it is needed.\r\n    Although you can mount almost anything on the Damascus, the Damascus Body Glove is required to mount other Mount Olympus upgrades. Whether this is a reflection of current market attitudes, or intentional on behalf of Mount Olympus, is a matter of some debate.\r\n    Lastly, the Damascus BodyGlove may be printed in any colour you prefer, and comes with, according to the user manual, ‘a surprising number of pockets’.\r\n    \r\n    Provides +1 HP, additionally provides an additional capacity for Pilot Gear (cannot be clothing, weapons or armour)."
+  },
+  {
+    "id": "Mount-Olympus-Thorax",
+    "type": "armor",
+    "name": "Thorax",
+    "hp_bonus": 2,
+    "speed": 5,
+    "speed_bonus": 0,
+    "armor": 1,
+    "edef": 10,
+    "evasion": 10,
+    "evasion_bonus": 0,
+    "description": "A lighter alternative to traditional personnel armour, the “Thorax” resembles little more than a padded helmet and flak jacket. Utilizing a series of interlocking keratinous laminate plates, the Thorax provides adequate protection to those body areas it covers, with no loss in maneuverability to the wearer.\r\n      Enemies can take a +1 difficulty on attacks to negate the armour provided by this gear."
+  },
+  {
+    "id": "Mount-Olympus-Segmentata",
+    "type": "armor",
+    "name": "Segmentata",
+    "hp_bonus": 2,
+    "speed": 4,
+    "speed_bonus": 0,
+    "armor": 1,
+    "edef": 9,
+    "evasion": 9,
+    "evasion_bonus": 0,
+    "description": "The Mount Olympus “Segmentata” Mk I Hardsuit utilizes overlapping bands of microplate steel to provide impressive protection without sacrificing mobility. The steel microplates are arranged in a pattern comparable to bone structure, allowing the “Segmentata” to maintain a fairly amiable weight load, as well as giving it additional resistance to most kinetic damage.\r\n      when targetted with an attack that deals kinetic damage, the wearer of this armour removes 1 damage from the attack"
+  },
+  {
+    "id": "Nemean-Absolute-Unit-Armour",
+    "type": "armor",
+    "name": "Nemean Pattern Supplemental Armour",
+    "hp_bonus": 0,
+    "speed": 3,
+    "speed_bonus": 0,
+    "armor": 4,
+    "edef": 5,
+    "evasion": 7,
+    "evasion_bonus": 0,
+    "description": "On the “absurdly heavy” side of armour design enters the Nemean Pattern Supplemental Armour. Designed for use with the Damascus II Hardsuit, this armour has its origins in pieces of scrapped mech used as makeshift barricades by low-life criminal elements.\r\n      Thankfully, the Nemean Armour design has progressed significantly since early designs to it’s current form; exactly 11 pieces of contiguous everest mech hull, shaped for attachment onto the Damascus II hardsuit, yielding full body coverage. The overlap between plates is very precise - a wearer won’t suffer ‘pinching’ unless the armour itself has been severely deformed.\r\n      User testing has established that although the Nemean excels in absorbing kinetic damage, its form makes it particularly vulnerable to energy attacks and ambient heat. It is also reported near unanimously to be “fucking heavy”.\r\n      Modern versions of this armour include a small ventral port, centred vertically on the small of the back, with grating and filtering to maintain environmental sealing. As this is widely reported to be near useless in alleviating body heat, most pilots have taken to using the ventral port as an over-large ammunition pouch."
+  },
+  {
+    "id": "Cornucopia-Ammo-Pack ",
+    "type": "gear",
+    "name": "Cornucopia Ammo Pack ",
+    "description": "When firing a weapon with the Loading tag, you can use a use of this item to ignore the Loading tag for a round. This Gear can be used three times before it must be replenished with a full repair"
+  }
+]

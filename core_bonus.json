@@ -1,0 +1,37 @@
+[
+  {
+    "id": "MtOlymInc Predictive Calculations",
+    "name": "Predictive Calculations",
+    "description": "",
+    "source": "Mt Olympus Inc",
+    "effect": "If you have an NHP installed in your mech, once per round you can re roll a failed check with +1 Accuracy."
+  },
+  {
+    "id": "MtOlymInc Field Operative Elysium Clearance",
+    "name": "Field Operative Elysium Clearance",
+    "description": "",
+    "source": "Mt Olympus Inc",
+    "effect": "If an NHP in your mech becomes Unshackled it still treats you with the reverence it would as though it were shackled; it is likely to still follows orders from you, and treats your survival and health and important goals. It still treats other humans as it would otherwise. "
+  },
+  {
+    "id": "MtOlymInc CRONOS Class NHP",
+    "name": "CRONOS Class NHP",
+    "description": "",
+    "source": "Mt Olympus Inc",
+    "effect": "You gain an NHP which can be installed into any mech you print for no SP cost. Your Mech gains the AI Tag and gains the following protocol.\r\n\tTime Bend\r\n\tProtocol\r\nLimited (2)\r\nOn the turn you activate this system any actions which would take a full action now take a Quick actions, any actions that would normally take a quick action can now be done as a free action, you can only perform four free actions in the turn you activate this system. The turn after this is activated your mech can only perform a single quick action."
+  },
+  {
+    "id": "MtOlymInc OURANOS Class NHP",
+    "name": "OURANOS Class NHP",
+    "source": "Mt Olympus Inc",
+    "effect": "You gain an NHP which can be installed into any Mech you print for no SP cost. Your Mech gains the AI Tag and gains the following ability. \r\nSky Domination:\r\nYou gain +1 Accuracy on attacks if you mech was/is flying this turn. Additionally you gain +1 Accuracy against flying targets. When you hit with an attack where this system has given you an accuracy you deal +1d6 damage.",
+    "description": ""
+  },
+  {
+    "id": "MtOlymInc TARTARUS Class NHP",
+    "name": "TARTARUS Class NHP",
+    "source": "Mt Olympus Inc",
+    "effect": "You gain an NHP which can be installed into any mech you print for no SP cost. Your Mech gains the AI tag and gains the following Action.\r\nPit Summoning\r\nOnce per combat you can summon a HELLHOUND class drone. \r\nThe Drone has 10 HP and 8 Evasion and E-defence\r\nIt can be deployed as a quick action to any space within range 10 \r\nEach round it can move up to 5 spaces and make an attack with a +2 bonus, dealing 3d3 heat Damage.",
+    "description": ""
+  }
+]
